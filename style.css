@@ -1,6 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: white;
+
+}
+
 .header{
     display: flex;
     justify-content: space-between;
+    color: white;
+    gap: 300px;
+}
+
+#headlogo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+#header1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+button{
+    color: white;
+    background-color: #3882F6;
+    display:block;
+    border-radius: 15%;
+    outline: none;
+    margin: 8px;
+    padding: 8px;
 }
 
 #menu ul{
@@ -11,5 +41,35 @@
   }
 
 .top-section{
-    background: blue;
+    background: #1F2937;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Showcase{
+    width: 400px;
+}
+
+#top.container{
+    padding-bottom:50px;
+    padding-top:50px;
+    gap: 32px;
+}
+
+#subtext1{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.placeholderimage{
+    background-color: gray;
+    width: 350px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
