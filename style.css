@@ -100,3 +100,23 @@ button{
     color: gray;
     gap: 16px;
 }
+
+.citation{
+    display: flex;
+    padding: 64px 180px 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+}
+
+#author{
+    padding-top: 0;
+    margin-top:0;
+    font-weight: bolder;
+    margin-left: 250px;
+    font-size: 24px;
+}
