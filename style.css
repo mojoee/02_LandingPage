@@ -111,6 +111,7 @@ button{
     color: #1F2937;
     font-size: 36px;
     font-style: italic;
+    font-weight: lighter;
 }
 
 #author{
@@ -119,4 +120,27 @@ button{
     font-weight: bolder;
     margin-left: 250px;
     font-size: 24px;
+}
+
+.action-call{
+    margin: 0;
+    padding: 32px;
+    background-color: white;
+}
+
+.box1{
+    margin: 32px 64px;
+    padding: 16px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+    border-radius: 5px;
+}
+
+.column1 #button2{
+    margin-top: 20px;
+    padding:4px 32px;
+    border-radius: 5px;
+    border-color: white;
 }
